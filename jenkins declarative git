@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+      stages{
+            stage("Git checkout"){       
+                 steps{
+                    git 'https://github.com/devopstraining456/https-github.com-anshulc55-Jenkins_Upgradev3.git'
+                 }
+            }
+      }
+      
+}
